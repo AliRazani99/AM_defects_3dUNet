@@ -5,6 +5,7 @@ V. W. H. Wong, M. Ferguson, K. H. Law, Yung-Tsun T. Lee and P. Witherell, "Autom
 
 The models 14,15,16 in model log are final ones used for the paper. 
 To run: 
+0. Download dataset from https://www.nist.gov/el/intelligent-systems-division-73500/cocr-am-xct-data
 1. Install dependencies for wolny's pytorch-3dunet (see its readme in the next section)
 2. Train using: python train.py --config resources/train_vivian.yaml 
 3. Get the predicted h5 using: python predict.py -config resources/test_config_ce.yaml 
